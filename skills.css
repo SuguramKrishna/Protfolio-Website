@@ -38,16 +38,16 @@ span{
     width: 350px;
     height: auto;
     border-radius: 20px;
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
+    /* -webkit-filter: blur(3px);
+	filter: blur(3px); */
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
-.box:hover{
+/* .box:hover{
     -webkit-filter: blur(0);
 	filter: blur(0);
-}
+} */
 .box i{
     font-size: 36px;
     color: rgb(18, 167, 253);
@@ -76,11 +76,11 @@ button{
     font-weight: bold;
     border-radius: 30px;
 }
-button:hover{
+/* button:hover{
     transform: translateY(-5px) scale(1.2);
     transition: .3s;
     cursor: pointer;
-}
+} */
 
 .btn{
 	padding: 10px 25px;

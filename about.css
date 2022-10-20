@@ -65,17 +65,17 @@ nav ul li a:hover{
 .about img{
     height: auto;
     width: 420px;
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
+    /* -webkit-filter: blur(3px);
+	filter: blur(3px); */
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-.about img:hover{
+/* .about img:hover{
     height: auto;
     width: 420px;
     -webkit-filter: blur(0);
 	filter: blur(0);
-}
+} */
 .about-text{
     width: 550px;
 }
